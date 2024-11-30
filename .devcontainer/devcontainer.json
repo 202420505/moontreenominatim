@@ -1,0 +1,19 @@
+{
+  "name": "MoonTreeNominatim Codespace",
+  "image": "moonlight10529/moontreenominatim:latest",
+  "postCreateCommand": "echo 'MoonTreeNominatim is ready!'",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
